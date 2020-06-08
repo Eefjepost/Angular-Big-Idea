@@ -17,10 +17,13 @@
       </div>
     </div>
 
+<div class="containerMobile" *ngIf="currentWindowWidth < 800">
+  <img class="img-responsive" src='./assets/images/boulders.jpg' style="height: 300px; margin:1rem">
+</div>
 
 
 
-  <div class="container" style="background-image: url('./assets/images/boulders.jpg'); background-size: cover">
+  <div class="containerTwo" style="background-size: cover">
 
     <div class="row">
 
@@ -30,7 +33,7 @@
           <p> Momenteel ben ik bezig met een intern project waarbij we gebruik maken van Spring Boot, Java en JPA repository.<p>
           <p> De ontwikkeling van deze website heb ik gerealiseerd door gebruik te maken van Angular Cli en Bootstrap.</p>
           <p>Met behulp van Android Studio en Java heb ik een app ontwikkeld; Eve's Sew Quick Tool. Deze is te vinden in de Google Play Store.</p>
-           <a href=".html"><button class="btn btn-outline-dark mt-auto">Eve's Sew Quick Tool</button></a>
+           <a href="https://play.google.com/store/apps/details?id=com.sewtool.eef.sewquicktool&gl=NL" target="_blank"><button class="btn btn-outline-dark mt-auto">Eve's Sew Quick Tool</button></a>
         </div>
       </div>
 
@@ -67,7 +70,7 @@
             <p>Hier heb ik veel ervaring opgedaan in business development; van het uitwerken van een idee tot het opzetten van haalbare business cases en projectconsortia.
             <p>Daarnaast heb ik veel ervaring in projectmanagement, documentatie en eindverantwoording opgedaan. </p>
             <p> Veel van deze innovatieve ontwikkeltrajecten hebben we uitgevoerd in samenwerking met nationale/internationale subsidies.</p>
-            <div class="mt-auto"><a href=".html"><button class="btn btn-outline-dark">Meer informatie</button></a></div>
+            <div class="mt-auto"><a [routerLink]="['/projects']"><button class="btn btn-outline-dark">Meer informatie</button></a></div>
           </div>
       </div>
     </div>

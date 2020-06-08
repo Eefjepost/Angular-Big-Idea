@@ -47,28 +47,35 @@ li {
 
 
 .card {
-  width: 12rem;
+  width: 25rem;
   display: flex;
   margin: 2rem;
 }
 
+.containerMobile{
 
-  .card-columns {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    display: flex;
-  }
+}
+
 
 
 @media (min-width: 768px) {
+  .containerTwo {
+    background-image: url('src/assets/images/boulders.jpg');
+  }
   .card-columns {
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
     display: flex;
+
   }
+
 }
+
+
+
+
+
 
 
 

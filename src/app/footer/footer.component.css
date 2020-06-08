@@ -8,3 +8,15 @@
   text-decoration: none;
   margin:1rem;
 }
+
+p {
+  font-size: 12px;
+}
+
+
+
+.jumbotron-fluid {
+  background-color:#eeeeee;
+  background-size:cover;
+  height: 100px;
+}

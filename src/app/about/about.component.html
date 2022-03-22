@@ -1,38 +1,43 @@
-<div class="jumbotron-fluid" Style="background-color:#eeeeee; background-size: cover; height:50px;">
-</div>
 
+    <div class="container" style="background-size: cover; margin-top: 5rem;">
 
+      <div class="row mx-auto">
+        <div class="card col-sm-12 mx-auto">
 
-    <div class="container">
-      <div class="row" style="background-color: white">
-        <div class="col-sm-4 mx-auto" style="background-color: white">
-          <img class="img-responsive" src='./assets/images/eef3.jpg' style="height: 200px; margin:1rem">
-        </div>
-        <div class="col-sm-8" style="background-color: white">
-          <h3 class='mx-auto' style=" margin:1rem">Over mij</h3>
-          <p>Afgelopen 9 jaar was ik werkzaam in de industrie bij een klein familiebedrijf/startup (Green Turbine) in de rol als business development manager en het laatste jaar ben ik tevens werkzaam geweest als projectmanager bij Schiphol.</p>
-          <p>In mijn vrije tijd was ik veel bezig met programmeren (websites en app ontwikkeling) en heb ik besloten om per februari 2020 de overstap te maken naar de functie van Software Developer. Bij mijn huidige werkgever Ordina ben ik bezig in een project intern project met Java en SpringBoot.</p>
-          <p>Deze website heb ik ontwikkeld met Angular en Bootstrap 4.</p>
-        </div>
+          <div class="card-body mx-auto">
+            <h3 class='card-title text-center' style="font-size: 30px;">About me</h3>
+            <img class="img-responsive mx-auto d-block" src='./assets/images/eef.jpg' style="height: 200px; margin:1rem">
+          </div>
+        
+          <div class="card-body mx-auto">   
+              <p>Over a period of nine years, I worked in a green energy industry as a business development manager. This concerned a small family business. After this period, I worked as an IT projectmanager at a Dutch Airport (Schiphol). This assigment was arranged by my employer (Ordina).</p>
+              <p>However, in my free time, I was busy developing software (websites and an app), so I decided to make a career switch to (Java) software developer in the beginning of 2020. Fortunately, my switch was supported by Ordina, they provided me with the necessary training, an intern project I could work on and an assigment at the Rabobank.</p>
+              <p>I have also developed this website using Angular (Cli) and Bootstrap.</p>
+          </div>
+       </div>
       </div>
+    
+      <div class="card-body mx-auto">
+       <div class="containerMobile mx-auto" *ngIf="currentWindowWidth < 800">
+        <img class="img-responsive d-block mx-auto" src='./assets/images/boulders.jpg' style="height: 300px; margin:1rem">
+       </div>
+      </div>
+
     </div>
 
-<div class="containerMobile" *ngIf="currentWindowWidth < 800">
-  <img class="img-responsive" src='./assets/images/boulders.jpg' style="height: 300px; margin:1rem">
-</div>
 
 
+  <div class="containerTwo mx-auto" style="background-size: cover">
 
-  <div class="containerTwo" style="background-size: cover">
+    <div class="row mx-auto col-sm-12">
 
-    <div class="row">
-
-        <div class="card col-sm-3">
+        <div class="card col-sm-3 mx-auto">
         <div class="card-body">
-          <h3 class="card-title">Software projecten</h3>
-          <p> Momenteel ben ik bezig met een intern project waarbij we gebruik maken van Spring Boot, Java en JPA repository.<p>
-          <p> De ontwikkeling van deze website heb ik gerealiseerd door gebruik te maken van Angular Cli en Bootstrap.</p>
-          <p>Met behulp van Android Studio en Java heb ik een app ontwikkeld; Eve's Sew Quick Tool. Deze is te vinden in de Google Play Store.</p>
+          <h3 class="card-title">Software projects</h3>
+          <p> At Rabobank, I worked in projects that were build on Java, Angular/Typescript or Javascript. I gained experience on different test frameworks (mostly JUnit5), Azure, Git, Postman, IntelliJ and Jira.<p></p>
+          <p> At Ordina, I worked on a Java application. In this project I gained experience using Spring Boot and a JPA repository.<p>
+          <p> This website was a private project that I started in the beginning of 2020. It is an Angular app that uses Bootstrap.</p>
+          <p>Before I switched to a developers role, I learned myself to code, using mosty Youtube videos. I also developed an android app build with Java in Android Studio; Eve's Sew Quick Tool. The app is still available in Google Play Store.</p>
            <a href="https://play.google.com/store/apps/details?id=com.sewtool.eef.sewquicktool&gl=NL" target="_blank"><button class="btn btn-outline-dark mt-auto">Eve's Sew Quick Tool</button></a>
         </div>
       </div>
@@ -40,37 +45,28 @@
 
 
 
-      <div class="card col-sm-3">
+      <div class="card col-sm-3 mx-auto">
         <div class="card-body">
-          <h3 class="card-title">Opleiding en training</h3>
-          <p> Ik heb een opleidingsprogramma doorlopen waarbij de volgende trainingen aan bod kwamen:</p>
+          <h3 class="card-title">Education and training</h3>
+          <p> I have a master in psychology from the Dutch university. In order to become a software developer, I received the following training:</p>
           <ul>
-            <li>Databases en SQL</li>
-            <li>CI/CD-pipelines (o.a. Git en Docker)</li>
+            <li>Databases and SQL</li>
+            <li>CI/CD-pipelines (Git and Docker)</li>
             <li>Test driven development</li>
-            <li>Object Orientatie en Design patterns</li>
-            <li>Agile en Scrum (ik ben PSM I gecertificeerd).</li>
-          </ul>
-
-          <p> Daarnaast heb ik -tijdens werkervaring- vaardigheden opgedaan in:</p>
-          <ul>
-            <li>Java, Android Studio, Gradle en publicatie van Apps in de Google Play Store.</li>
-            <li>HTML, CSS, Bootstrap</li>
-            <li>Angular</li>
-            <li>Typescript</li>
+            <li>Object Orientation and Design patterns</li>
+            <li>Agile/ Scrum (I am PSM I certified).</li>
           </ul>
         </div>
       </div>
 
 
 
-        <div class="card col-sm-3">
+        <div class="card col-sm-3 mx-auto">
           <div class="card-body">
-            <h3 class="card-title">Overige projecten</h3>
-            <p>Hier heb ik veel ervaring opgedaan in business development; van het uitwerken van een idee tot het opzetten van haalbare business cases en projectconsortia.
-            <p>Daarnaast heb ik veel ervaring in projectmanagement, documentatie en eindverantwoording opgedaan. </p>
-            <p> Veel van deze innovatieve ontwikkeltrajecten hebben we uitgevoerd in samenwerking met nationale/internationale subsidies.</p>
-            <div class="mt-auto"><a [routerLink]="['/projects']"><button class="btn btn-outline-dark">Meer informatie</button></a></div>
+            <h3 class="card-title">Other projects</h3>
+            <p>I have many years of experience with business development in a startup; writing project grant proposals and business plans, developing partnerships and building project consortia.</p>
+            <p> At Ordina and Rabobank, I have learned a lot about the agile way of working. I also supported the Scrum master in his/her role, since my psychology/management background and communication skills are a good fit in this process.</p>
+            <div class="mt-auto"><a [routerLink]="['/projects']"><button class="btn btn-outline-dark">More information</button></a></div>
           </div>
       </div>
     </div>

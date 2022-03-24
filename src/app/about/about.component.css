@@ -40,9 +40,9 @@ li {
 
 .card {
   display: flex;
-  margin: 2rem;
   overflow-x: hidden !important;
   max-width: 100% !important;
+  margin-top: 3rem;
 }
 
 .containerMobile {
@@ -59,14 +59,20 @@ li {
 .container {
     max-width: 100% !important;
     overflow-x: hidden !important;
-    align-self: center;
-    margin: 2rem;
+   
 }
 
 .img-responsive{
   max-width: 100% !important;
   overflow-x: hidden !important;
+  flex-basis: auto;
+}
+
+.img-fluid{
+  max-width: 100% !important;
   height: auto;
+  overflow-x: hidden !important;
+  flex-basis: auto;
 }
   
   .containerTwo {
@@ -80,7 +86,10 @@ li {
     -moz-column-count: 3;
     column-count: 3;
     display: flex;
+  }
 
+  .row>.col {
+    flex-basis: auto;
   }
 
 }

@@ -6,6 +6,8 @@ import { AboutComponent } from './about/about.component';
 import {AppRoutingModule} from './app-routing.module';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { DataprivacyComponent } from './dataprivacy/dataprivacy.component';
+
 
 
 
@@ -16,6 +18,7 @@ import { ProjectsComponent } from './projects/projects.component';
     AboutComponent,
     FooterComponent,
     ProjectsComponent,
+    DataprivacyComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,4 +27,5 @@ import { ProjectsComponent } from './projects/projects.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

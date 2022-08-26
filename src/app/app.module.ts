@@ -7,9 +7,7 @@ import {AppRoutingModule} from './app-routing.module';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { DataprivacyComponent } from './dataprivacy/dataprivacy.component';
-
-
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +20,8 @@ import { DataprivacyComponent } from './dataprivacy/dataprivacy.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

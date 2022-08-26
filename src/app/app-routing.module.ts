@@ -8,6 +8,7 @@ import {DataprivacyComponent} from './dataprivacy/dataprivacy.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
+  {path: 'index', redirectTo : '/home', component: HomeComponent},
   {path: 'about', component: AboutComponent},
   {path: 'projects', component: ProjectsComponent},
   {path: 'home', component: HomeComponent},

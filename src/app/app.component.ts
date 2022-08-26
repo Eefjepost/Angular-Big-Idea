@@ -1,9 +1,16 @@
 import { Component, OnInit, OnDestroy } from "@angular/core";
 import { environment } from "src/environments/environment";
+import { trigger,
+  state,
+  style,
+  transition,
+  animate,
+} from '@angular/animations'; 
 
 @Component({
   templateUrl: 'app.component.html',
   selector: 'app-root',
+   
 })
 
 

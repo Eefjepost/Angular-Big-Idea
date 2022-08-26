@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { animate } from '@angular/animations';\nanimate('100');\nexport class HomeComponent {\n  constructor() {\n    this.isAnimated = true;\n    this.animationState = 'void';\n  }\n\n  ngOnInit() {\n    window.scrollTo(0, 0);\n\n    if (this.isAnimated) {\n      this.animationState = 'open';\n    }\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from "@angular/core";
+import { Component, OnInit, OnDestroy, HostBinding } from "@angular/core";
 import { environment } from "src/environments/environment";
 import { trigger,
   state,
@@ -15,12 +15,12 @@ import { trigger,
 
 
 export class AppComponent implements OnInit {
-
   public cookieMessage = "This website uses cookies";
   public cookieDismiss = "Got it!";
   public cookieLinkText = "More information";
   
-  constructor(){}
+  constructor(){
+  }
 
   ngOnInit() {
     let cc = window as any;

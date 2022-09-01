@@ -1,20 +1,31 @@
 
-    <div class="container" style="background-size: cover;">
+  <div class="container mx-auto" style="background-size: cover; align-items:center; flex-direction: row; background-color: black;">
+   
+        <div class="card mx mx-auto" Style="width: 82%">
+          <div class="card-body">
+                <h3 class='card-title text-center' style="font-size: 30px; margin-top: 1rem">About me</h3>
+                <img class="img-responsive mx-auto d-block" src='./assets/images/eef.jpg' style="max-width: 100%; height: auto; border-radius: 50rem;">
+          </div>
 
-      <div class="row mx-auto" style="margin-top: 3rem">
-        <div class="card d-flex">
-          <div class="card-body mx-auto">
-            <h3 class='card-title text-center' style="font-size: 30px; margin-top: 1rem">About me</h3>
-            <img class="img-responsive mx-auto d-block" src='./assets/images/eef.jpg' style="height: 200px;">
+            <div class="card-body mx-auto">
+              <a target="new" href="http://nl.linkedin.com/in/eefje-post-2922973/" class="fa fa-linkedin-square"></a>
+              <a target="new" href="http://nl.linkedin.com/in/eefje-post-2922973/" class="fa fa-github-square"></a>
+              <a target="new" href="http://nl.linkedin.com/in/eefje-post-2922973/" class="fa fa-twitter-square"></a>
+              <a target="new" href="http://nl.linkedin.com/in/eefje-post-2922973/" class="fa fa-envelope-square"></a>
+            </div>
+          
+          
+            <div class="row mx-auto" style="justify-content: center; margin-top: 2rem; width: 75%;">
+              <div class="col-12 mx-auto">
+                  <p>I am a pro-active, focused and result-orientated Software Developer from The Netherlands with 3+ years (commercial) experience in Java, Angular/Typescript, React Native (private project on Github) and excellent communication skills. Before this time, I was a project manager for
+                    approximately 8+ years’. I am also PSM I certified.</p>
+                    <p>Currently, I am on a sabbatical and I will start looking for new
+                    assignments or a job around September 15th 2022.</p>
+              </div>
+            </div>
+
           </div>
-        
-          <div class="card-body mx-auto">   
-              <p>Over a period of nine years, I worked in a green energy industry as a business development manager. This concerned a small family business. After this period, I worked as an IT projectmanager at a Dutch Airport (Schiphol). This assigment was arranged by my employer (Ordina).</p>
-              <p>However, in my free time, I was busy developing software (websites and an app), so I decided to make a career switch to (Java) software developer in the beginning of 2020. Fortunately, my switch was supported by Ordina, they provided me with the necessary training, an intern project I could work on and an assigment at the Rabobank.</p>
-              <p>I have also developed this website using Angular (Cli) and Bootstrap.</p>
-          </div>
-       </div>
-      </div>
+      
     
       <div class="card-body mx-auto">
        <div class="containerMobile mx-auto" *ngIf="currentWindowWidth<800">
@@ -22,20 +33,22 @@
        </div>
       </div>
 
-    </div>
+  </div>
 
 
 
-  <div class="containerTwo mx-auto" style="background-size: cover">
+  <div class="containerTwo mx-auto" style="background-size: cover;">
 
     <div class="row mx-auto col-sm-12" style="margin-bottom: 2rem;">
 
-        <div class="card col-sm-3 mx-auto">
+        <div class="card col-md-3 mx-auto">
         <div class="card-body">
           <h3 class="card-title">Software projects</h3>
           <p> At Rabobank, I worked in projects that were build on Java, Angular/Typescript or Javascript. I gained experience on different test frameworks (mostly JUnit5), Azure, Git, Postman, IntelliJ and Jira.<p></p>
-          <p> At Ordina, I worked on a Java application. In this project I gained experience using Spring Boot and a JPA repository.<p>
-          <p> This website was a private project that I started in the beginning of 2020. It is an Angular app that uses Bootstrap.</p>
+          <p> At Ordina, I worked on a Java application. In this project I gained experience using Spring Boot and a JPA repository.</p>
+          <i> Angular App</i>
+          <p>This website was a private project that I started in the beginning of 2020. It is an Angular app that uses Bootstrap.</p>
+          <i> Android App</i>
           <p>Before I switched to a developers role, I learned myself to code, using mosty Youtube videos. I also developed an android app build with Java in Android Studio; Eve's Sew Quick Tool. The app is still available in Google Play Store.</p>
            <a href="https://play.google.com/store/apps/details?id=com.sewtool.eef.sewquicktool&gl=NL" target="_blank"><button class="btn btn-outline-dark mt-auto">Eve's Sew Quick Tool</button></a>
         </div>
@@ -44,7 +57,7 @@
 
 
 
-      <div class="card col-sm-3 mx-auto">
+      <div class="card col-md-3 mx-auto">
         <div class="card-body">
           <h3 class="card-title">Education and training</h3>
           <p> I have a master in psychology from the Dutch university. In order to become a software developer, I received the following training:</p>
@@ -60,7 +73,7 @@
 
 
 
-        <div class="card col-sm-3 mx-auto">
+        <div class="card col-md-3 mx-auto">
           <div class="card-body">
             <h3 class="card-title">Other projects</h3>
             <p>I have many years of experience with business development in a startup; writing project grant proposals and business plans, developing partnerships and building project consortia.</p>

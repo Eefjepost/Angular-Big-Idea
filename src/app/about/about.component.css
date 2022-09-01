@@ -3,7 +3,6 @@ body{
    max-width: 100% !important;
    overflow-x: hidden !important;
    height: 100%;
-   background-color:#eeeeee;
 }
 
 
@@ -32,6 +31,12 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+i {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
 li {
   font-size: 14px;
   font-weight: 300;
@@ -41,13 +46,43 @@ li {
 .card {
   display: flex;
   overflow-x: hidden !important;
-  max-width: 100% !important;
+  max-width: 82% !important;
   margin-top: 3rem;
+  align-self: center;
+  border-radius: 15px;
+}
+
+
+.fa {
+      font-size: 36px;
+      width: 60px;
+      text-decoration: none;
+    }
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+background: #007bb5;
+  color: white;
+}
+
+.fa-envelope {
+  background: #007bb5;
+  color: white;
 }
 
 .containerMobile {
   max-width: 100% !important;
   overflow-x: hidden !important;
+  border-radius: 15px;
 }
 
 
@@ -56,13 +91,21 @@ li {
     overflow-x: hidden !important;
     max-width: 100% !important;
 }
+
 .container {
     max-width: 100% !important;
     overflow-x: hidden !important;
-   
+   background-color: black;
+   margin-top: 5rem;
 }
 
 .img-responsive{
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  flex-basis: auto;
+}
+
+.img-responsiveIcon{
   max-width: 100% !important;
   overflow-x: hidden !important;
   flex-basis: auto;
@@ -78,7 +121,7 @@ li {
   .containerTwo {
     background-image: url('src/assets/images/boulders.jpg');
     max-width: 100% !important;
-    overflow-x: hidden !important;
+     overflow-x: hidden !important;
   }
 
   .card-columns {

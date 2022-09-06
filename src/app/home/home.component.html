@@ -12,39 +12,66 @@
 <div div class="jumbotron-fluid" style="background-color: black; background-size: cover; height:150px; ">
     <div class="container">
       <div class="row text-center">
-        <h2 class='mx-auto' @flyInOut>My skills:</h2>
+        <h2 class='mx-auto' @flyInOut>Eefje Post</h2>
       </div>
     </div>
 </div>
 
 
 
-    <div class="container" style="margin-top: 5rem">
-      <div class="row" style="background-color: white;">
-        <div class="col-sm-6 col-lg-8 mx-auto" style="background-color: white">
-          <img class="img-responsive" src='./assets/images/greenlinks.jpg' style="width:250px; margin-top: 2rem; margin-bottom: 2rem;">
-        </div>
-        <div class="col-6 col-lg-8">
-          <h3 class='mx-auto' style="margin:2rem">Software development</h3>
-          <p>In the past three years, I have done several projects related to software development. I worked at Ordina, where I received the right training in order to perform several assigments. In the last two years , I worked at Rabobank as a Java developer. Here, I also gained experience with Angular, several testing frameworks and DevOps practices (Splunk, Azure).</p>
-          <p> Before this, I learned myself to code and published an Android app in the Google Play store: <a href="https://tinyurl.com/y2vc2lnq" style="color: #538d40">Click here</a> for more information.</p>
-          <p>I have developed this website using Angular and Bootstrap.</p>
-          <p> <a [routerLink]="['/about']"><button class="btn btn-outline-dark">More information about my projects</button></a></p>
-        </div>
-      </div>
-    </div>
-
-
-<div class="container" style="margin-top: 5rem; margin-bottom:5rem;">
-  <div class="row" style="background-color: white;">
-    <div class="col-sm-6 col-lg-8 mx-auto" style="background-color: white;">
-      <h3 class='mx-auto' style="margin:2rem; background-color: white"> Projectmanagement and teams </h3>
-      <p> I am <a href="https://www.scrum.org/certificates/476274" style="color: #538d40">PSM I certified</a> and have approximately 9 years experience in project management/business development with startups. This experience allows me to function well in teams and help the scrum process along. With that said, my ambition is not to be a Scrum Master. I switched roles to become a software developer because that is my main passion.</p>
-      <p> <a [routerLink]="['/about']"><button class="btn btn-outline-dark">More information</button></a></p>
-    </div>
+  <div class="containerTwo mx-auto" style="background-size: cover;">
   
-      <div class="col-6 col-lg-4" style="background-color: white;">
-        <img class="img-responsive" src='./assets/images/greenrechts.jpg' style="width:250px; margin-top: 2rem; margin-bottom: 2rem;">
+  
+    <div class="card-deck mt-5">
+      <div class="row row-cols-1 row-cols-xl-3 row-cols-sm-1">
+  
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="../../assets/images/sewTool2.png" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title">Android App</h3>
+              <p> The development of this native app (Eve's Sew Quick Tool) was my first project with Java and the app is still available in the Google Play Store today.</p>
+              <p> In order to get there, I had to overcome some hurdles; how to apply my java knowledge, learn how to work with Android Studio and to publish an app.
+               <p> Are you thinking about developing an Android App? This is my approach and what I have learned have learned along the way!</p>
+             
+              <a href="https://play.google.com/store/apps/details?id=com.sewtool.eef.sewquicktool&gl=NL"
+                target="_blank"><button class="btn btn-outline-dark mt-auto">Learn more</button></a>
+            </div>
+          </div>
+        </div>
+  
+  
+        <div class="col mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title">Education and training</h3>
+              <p> I have a master in psychology from the Dutch university. In order to become a software developer, I
+                received the following training:</p>
+              <ul>
+                <li>Databases and SQL</li>
+                <li>CI/CD-pipelines (Git and Docker)</li>
+                <li>Test driven development</li>
+                <li>Object Orientation and Design patterns</li>
+                <li>Agile/ Scrum (I am PSM I certified).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title">Other projects</h3>
+              <p>I have many years of experience with business development in a startup; writing project grant proposals
+                and business plans, developing partnerships and building project consortia.</p>
+              <p> At Ordina and Rabobank, I have learned a lot about the agile way of working. I also supported the Scrum
+                master in his/her role, since my psychology/management background and communication skills are a good fit
+                in this process.</p>
+              <div class="mt-auto"><a [routerLink]="['/projects']"><button class="btn btn-outline-dark">More
+                    information</button></a></div>
+            </div>
+          </div>
+        </div>
+  
       </div>
-  </div>
-</div>
+    </div>

@@ -32,6 +32,11 @@ h2 {
 
 }
 
+.containerTwo {
+    max-width: 100% !important;
+    background-color: black;
+  }
+
 p {
   font-size: 14px;
   font-weight: 300;
@@ -42,5 +47,27 @@ p {
   font-size: 10px;
 }
 
+.card {
+  overflow-x: hidden !important;
+  border-radius: 15px;
+}
 
+.card-deck {
+   margin: 8%;
+}
 
+@media (min-width: 576px) { 
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+}
+
+@media (min-width: 768px) { 
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+}

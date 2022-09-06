@@ -39,48 +39,54 @@
 
   <div class="containerTwo mx-auto" style="background-size: cover;">
 
-    <div class="row mx-auto col-sm-12" style="margin-bottom: 2rem;">
+   
+    <div class="card-deck mt-5">
+    <div class="row row-cols-1 row-cols-xl-3 row-cols-sm-1">
 
-        <div class="card col-md-3 mx-auto">
-        <div class="card-body">
-          <h3 class="card-title">Software projects</h3>
-          <p> At Rabobank, I worked in projects that were build on Java, Angular/Typescript or Javascript. I gained experience on different test frameworks (mostly JUnit5), Azure, Git, Postman, IntelliJ and Jira.<p></p>
-          <p> At Ordina, I worked on a Java application. In this project I gained experience using Spring Boot and a JPA repository.</p>
-          <i> Angular App</i>
-          <p>This website was a private project that I started in the beginning of 2020. It is an Angular app that uses Bootstrap.</p>
-          <i> Android App</i>
-          <p>Before I switched to a developers role, I learned myself to code, using mosty Youtube videos. I also developed an android app build with Java in Android Studio; Eve's Sew Quick Tool. The app is still available in Google Play Store.</p>
-           <a href="https://play.google.com/store/apps/details?id=com.sewtool.eef.sewquicktool&gl=NL" target="_blank"><button class="btn btn-outline-dark mt-auto">Eve's Sew Quick Tool</button></a>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h3 class="card-title">Software projects</h3>
+            <p> At Rabobank, I worked in projects that were build on Java, Angular/Typescript or Javascript. I gained experience on different test frameworks (mostly JUnit5), Azure, Git, Postman, IntelliJ and Jira.<p></p>
+            <p> At Ordina, I worked on a Java application. In this project I gained experience using Spring Boot and a JPA repository.</p>
+            <i> Angular App</i>
+            <p>This website was a private project that I started in the beginning of 2020. It is an Angular app that uses Bootstrap.</p>
+            <i> Android App</i>
+            <p>Before I switched to a developers role, I learned myself to code, using mosty Youtube videos. I also developed an android app build with Java in Android Studio; Eve's Sew Quick Tool. The app is still available in Google Play Store.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.sewtool.eef.sewquicktool&gl=NL" target="_blank"><button class="btn btn-outline-dark mt-auto">Eve's Sew Quick Tool</button></a>
+          </div>
+         </div>
         </div>
-      </div>
+     
 
-
-
-
-      <div class="card col-md-3 mx-auto">
-        <div class="card-body">
-          <h3 class="card-title">Education and training</h3>
-          <p> I have a master in psychology from the Dutch university. In order to become a software developer, I received the following training:</p>
-          <ul>
-            <li>Databases and SQL</li>
-            <li>CI/CD-pipelines (Git and Docker)</li>
-            <li>Test driven development</li>
-            <li>Object Orientation and Design patterns</li>
-            <li>Agile/ Scrum (I am PSM I certified).</li>
-          </ul>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h3 class="card-title">Education and training</h3>
+            <p> I have a master in psychology from the Dutch university. In order to become a software developer, I received the following training:</p>
+            <ul>
+              <li>Databases and SQL</li>
+              <li>CI/CD-pipelines (Git and Docker)</li>
+              <li>Test driven development</li>
+              <li>Object Orientation and Design patterns</li>
+              <li>Agile/ Scrum (I am PSM I certified).</li>
+            </ul>
+          </div>
         </div>
-      </div>
+       </div> 
 
-
-
-        <div class="card col-md-3 mx-auto">
+      <div class="col mb-4">
+        <div class="card h-100">
           <div class="card-body">
             <h3 class="card-title">Other projects</h3>
             <p>I have many years of experience with business development in a startup; writing project grant proposals and business plans, developing partnerships and building project consortia.</p>
             <p> At Ordina and Rabobank, I have learned a lot about the agile way of working. I also supported the Scrum master in his/her role, since my psychology/management background and communication skills are a good fit in this process.</p>
             <div class="mt-auto"><a [routerLink]="['/projects']"><button class="btn btn-outline-dark">More information</button></a></div>
           </div>
+        </div>
       </div>
+
+    </div>
     </div>
 
 </div>
